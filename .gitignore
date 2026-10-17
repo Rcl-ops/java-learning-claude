@@ -1,0 +1,8 @@
+out/
+build/
+target/
+.gradle/
+.idea/
+*.iml
+run/
+todo.tsv
