@@ -1,0 +1,29 @@
+# 模组元数据。带 ${...} 的值在构建时由 gradle.properties 填充（见 build.gradle 的 generateModMetadata）。
+modLoader = "javafml"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "Your Name"
+description = '''
+一个最简单的 NeoForge 模组：添加两个物品（红宝石与红宝石碎片）。
+这是 Java 教学项目的一部分。
+'''
+
+# 依赖：NeoForge 本体
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neo_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+# 依赖：Minecraft
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"

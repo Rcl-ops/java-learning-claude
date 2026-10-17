@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "hellomod:item/ruby_shard"
+  }
+}

@@ -1,0 +1,11 @@
+# 示例：检查项目 3 的服务（先启动 notes.NotesServer 9090）
+http://localhost:9090/
+http://localhost:9090/health
+http://localhost:9090/notes
+http://localhost:9090/notes/12345
+# 下面是网络上的真实站点（需要联网）
+https://dev.java
+https://docs.neoforged.net
+# 故意写错的
+http://localhost:9/
+not-a-url

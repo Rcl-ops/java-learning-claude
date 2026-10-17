@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        maven { url = 'https://maven.neoforged.net/releases' }
+    }
+}
+
+plugins {
+    // 自动下载所需的 JDK（本项目需要 JDK 25）
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
