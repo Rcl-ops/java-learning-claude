@@ -1,4 +1,5 @@
 # Java 入门教学项目（零基础 → 能做小项目 → 入门 NeoForge 模组）
+## 这是一个 Claude Sonnet 5.5 (high) 构建的Java教学项目
 
 一套面向初学者的 Java 自学资料，由三部分组成，全部为源码/Markdown，可直接在 IDE 或命令行里使用。
 
